@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Login Form</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>REAL TIME VALIDATION USING JS</h1>
+        <hr>
+        <form id="loginForm" onsubmit="validate(event)">
+            <fieldset>
+                <div>
+                    <label for="email">Emnail:</label>
+                    <input type="email" id="email" name="email">
+                </div>
+                <div>
+                    <label for="username">Emnail:</label>
+                    <input type="username" id="username" name="username">
+                </div>
+                <div>
+                    <label for="picture">Emnail:</label>
+                    <input type="picture" id="picture" name="picture">
+                </div>
+                <div>
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" minlength="8">
+                    </div>
+                    <label for="age">Age:</label>
+                    <input type="number" id="age" name="age" min="12" max="50">
+                </div>
+                <button type="submit">Login</button>
+                </fieldset>
+                </form>
+                <div id="message"></div>
+                <script scr="script1.js"></script>
+                </body>
+                </html>
